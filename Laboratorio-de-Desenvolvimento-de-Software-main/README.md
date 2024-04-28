@@ -1,23 +1,31 @@
 # Laboratorio-de-Desenvolvimento-de-Software
 Repositório para os trabalhos da matéria de Laboratório de Desenvolvimento de Software. Desenvolvimento Laboratório II – 20 pontos.
-## Commit semana 1
-* Implementação dos três tipos de tarefas (DATA, PRAZO e LIVRE).
-* Implementação dos três níveis de prioridades (Alta, Média e Baixa).
-* Ao recuperar uma tarefa, ela deverá trazer os status conforme o seu tipo.
-* Ao incluir uma tarefa do tipo 1. Data, a data prevista de execução deverá ser sempre igual ou superior a data atual.
-## Commit semana 2
-* Reorganização do código.
-* Diagrama de Casos de Uso atualizado.
-* Protótipos de Tela.
-* Descrição dos Casos de Uso atualizados.
-## Commit semana 3
-* Refatoração e desenvolvimento do código.
-* Criação do arquivo Service.
-* Alterando o Controller para usar o Service.
-* Tornando task em uma classe abstrata.
-* Adicionando subclasses para a classe abstrata task.
-* Alterando os casos de teste.
-## Commit semana 4
-* Diagramas da solução de backend construído, seguindo o padrão C4 Model na linguagem PlantUML.
-* Implementação do Banco de dados.
-* Documentação dos endpoints adotando swaggers.
+
+## Semana 1:
+
+* Desenvolvimento da funcionalidade para suportar três tipos de tarefas: DATA, PRAZO e LIVRE.
+* Implementação de três níveis de prioridade: Alta, Média e Baixa.
+* A recuperação de uma tarefa deve exibir seu status de acordo com o tipo.
+* Ao adicionar uma tarefa do tipo Data, a data planejada para execução deve ser igual ou posterior à data atual.
+
+##Semana 2:
+
+*Refatoração e reorganização do código existente.
+*Atualização do Diagrama de Casos de Uso.
+*Criação de protótipos de tela.
+*Atualização da descrição dos Casos de Uso.
+
+##Semana 3:
+
+*Refatoração e desenvolvimento contínuo do código.
+*Criação do arquivo de serviço (Service).
+*Modificação do controlador (Controller) para utilizar o serviço.
+*Transformação da classe Task em uma classe abstrata.
+*Adição de subclasses para a classe abstrata Task.
+*Atualização dos casos de teste.
+
+##Semana 4:
+
+*Criação de diagramas para representar a solução backend, seguindo o padrão C4 Model utilizando a linguagem PlantUML.
+*Implementação do banco de dados.
+*Documentação dos endpoints utilizando o Swagger.
