@@ -6,17 +6,17 @@
     box-sizing: border-box;
 }
 body {
-    background: #0b2b1a;
+    background: #0a1b2b;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .App {
-    color: #72a24d;
+    color: #4d80a2;
     text-align: center;
 }
 h1 {
-    color: #72a24d;
+    color: #4d53a2;
     margin-bottom: 0.5rem;
     font-size: 1.75rem;
 }
@@ -32,7 +32,7 @@ h1 {
 .todo-input {
     outline: none;
     background: none;
-    border: 1px solid #72a24d;
+    border: 1px solid #4d79a2;
     padding: 0.5rem 1rem;
     margin-top: 1rem;
     margin-bottom: 2rem;
@@ -43,7 +43,7 @@ h1 {
     color: #ffffff4d;
 }
 .todo-btn {
-    background: #72a24d;
+    background: #4d79a2;
     color: #fff;
     border: none;
     padding: 0.55rem;
@@ -53,7 +53,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #72a24d;
+    background: #4d6fa2;
     color: #fff;
     padding: 0.75rem 1rem;
     border-radius: 5px;
